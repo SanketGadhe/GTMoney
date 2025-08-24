@@ -13,9 +13,11 @@ const RegionalOffice = ({ officeData }) => {
             <p className="whitespace-pre-line">{address}</p>
 
             {/* Phone */}
-            {phone && phone.length > 0 && <p className="mt-1">Ph : {
+            {phone && phone.length > 0 && <p className="mt-1 flex">Ph : {
                 phone.map((num, index) => (
-                    <span key={index} className="flex">{num}</span>
+                    <span key={index} className="flex">{num}{
+                        index < phone.length - 1 ? <span>,&nbsp;</span> : null
+                    }</span>
                 ))
             }</p>}
 

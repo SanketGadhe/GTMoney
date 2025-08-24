@@ -57,45 +57,48 @@ const FooterContainer = () => {
 
     return (
         <footer className="bg-blue-50 py-12 px-12">
-           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16 px-6">
-    {/* Reach Us */}
-    <div>
-        <h3 className="text-xl font-bold text-blue-900 mb-4">Reach Us</h3>
-        <RegionalOfficeComponent officeData={RegionalOfficeData[0]} />
-    </div>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-16 px-6">
+                {/* Reach Us */}
+                <div>
+                    <h3 className="text-xl font-bold text-blue-900 mb-4">Reach Us</h3>
+                    <RegionalOfficeComponent officeData={RegionalOfficeData[0]} />
+                </div>
 
-    {/* Follow Us */}
-    <div>
-        <h3 className="text-xl font-bold text-blue-900 mb-4">Follow Us</h3>
-        <div className="flex gap-6 text-blue-800">
-            <a href="#"><FaFacebookF size={18} /></a>
-            <a href="#"><FaYoutube size={18} /></a>
-            <a href="#"><FaInstagram size={18} /></a>
-            <a href="#"><FaLinkedinIn size={18} /></a>
-        </div>
-    </div>
+                {/* Follow Us */}
+                <div>
+                    <h3 className="text-xl font-bold text-blue-900 mb-4">Follow Us</h3>
+                    <div className="flex gap-6 text-blue-900">
+                        <a href="#"><FaFacebookF size={18} /></a>
+                        <a href="#"><FaYoutube size={18} /></a>
+                        <a href="#"><FaInstagram size={18} /></a>
+                        <a href="#"><FaLinkedinIn size={18} /></a>
+                    </div>
+                </div>
 
-    {/* Quick Links */}
-    <div>
-        <h3 className="text-xl font-bold text-blue-900 mb-4">Quick Links</h3>
-        <ul className="space-y-4 text-gray-800">
-            <li><a href="#" className="hover:text-red-600">Hospital Registration</a></li>
-            <li><a href="#" className="hover:text-red-600">Careers</a></li>
-            <li><a href="#" className="hover:text-red-600">Blogs</a></li>
-        </ul>
-    </div>
+                {/* Quick Links */}
+                <div>
+                    <h3 className="text-xl font-bold text-blue-900 mb-4">Quick Links</h3>
+                    <ul className="space-y-4 text-gray-800">
+                        <li><a href="#" className="hover:text-red-600">Hospital Registration</a></li>
+                        <li><a href="#" className="hover:text-red-600">Careers</a></li>
+                        <li><a href="#" className="hover:text-red-600">Blogs</a></li>
+                    </ul>
+                </div>
 
-    {/* Contact Us */}
-    <div className="text-sm">
-        <h3 className="text-xl font-bold text-blue-900 mb-4">Contact Us</h3>
-        <p className="text-gray-800">support@moneycare.com</p>
-        <p className="text-gray-900 font-semibold py-1">
-            No Cost EMI & Advance Against Mediclaim
-        </p>
-        <p className="text-gray-800">+91 86570 00105</p>
-        <p className="text-gray-800">+91 72089 60444</p>
-    </div>
-</div>
+                {/* Contact Us */}
+                <div className="text-sm">
+                    <h3 className="text-xl font-bold text-blue-900 mb-4">Contact Us</h3>
+                    <p className="font-bold text-sm text-gray-600">info@gmoney.loans</p>
+                    <p className="font-bold text-gray-600 py-1">No Cost EMI & Advance Against Mediclaim</p>
+                    <p className="text-gray-600">+91 86570 00105</p>
+                    <p className="text-gray-600">+91 72089 60444</p>
+                    <p className="font-bold text-gray-600 pt-3">Medical Equipment Finance</p>
+                    <p className="text-gray-600">+91 93598 16238</p>
+                    <p className="text-gray-600">+91 86570 00130</p>
+                    <p className="font-bold text-gray-600 pt-3">Claim Desk & Insurance on EMIs</p>
+                    <p className="text-gray-600">+91 98673 95040</p>
+                </div>
+            </div>
 
             <div >
                 <h3 className="text-xl font-bold text-blue-900 mb-4 ml-5">Regional Office</h3>
